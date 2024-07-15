@@ -13,5 +13,6 @@ class Regiones extends BaseController
         $datos['datos']=$region->findAll();
 
         return view('regiones',$datos);
+        
     }
 }
