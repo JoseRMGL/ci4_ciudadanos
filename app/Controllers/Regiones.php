@@ -11,8 +11,6 @@ class Regiones extends BaseController
         $region = new RegionesModel();
         //FindAll = select * from regiones
         $datos['datos']=$region->findAll();
-
         return view('regiones',$datos);
-        
     }
 }
